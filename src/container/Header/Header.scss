@@ -1,0 +1,24 @@
+#home {
+    position: relative;
+    background: url('../../assets/bgIMG.png'); //added another circle
+    background-size: cover; //it will always do when using images as background
+    background-repeat: repeat;
+    background-position: center;
+
+    .app__wrapper {
+        padding: 0;
+
+        .copyright {
+            display: none;
+        }
+    }
+}
+
+.app__header {
+    flex: 1;
+    width: 100%;
+    height: 100%;
+    flex-direction: row; //can change bending if mobile or desktop device
+
+    padding: 6rem 2rem 0;
+}
