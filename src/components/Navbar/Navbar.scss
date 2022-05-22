@@ -21,12 +21,12 @@
     align-items: center;
 
     img {
-        width: 90px;
-        height: 20px;
+        width: 110px;
+        height: 50px;
 
         @media screen and (min-width: 2000px) {
             width: 180px;
-            height: 40px;
+            height: 85px;
         }
     }
 }
@@ -47,7 +47,7 @@
 
         // the indication for the navigation bar selection
         div {
-            width: 30px;
+            width: 50px;
             height: 5px;
             background: transparent;
             border-radius: 10%;
@@ -60,7 +60,7 @@
             flex-direction: column;
 
             text-transform: uppercase;
-            font-weight: 500;
+            font-weight: 700;
             transition: all 0.3s ease-in-out;
 
             &:hover {
@@ -71,7 +71,7 @@
         &:hover {
             div {
                 background-color: var(--secondary-color);
-                transition: all 0.4s ease-in-out;
+                transition: all 0.8s ease-in-out;
             }
         }
     }
