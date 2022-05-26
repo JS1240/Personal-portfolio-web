@@ -51,7 +51,7 @@ const Footer = () => {
           <a href="tel: +44 (730) 851-2445" className="p-text">+44 (730) 851-2445</a>
         </div>
       </div>
-      
+
     {!isFormSubmitted ?
       <div className="app__footer-form app__flex">
         <div className="app__flex">
@@ -65,7 +65,7 @@ const Footer = () => {
             className="p-text" 
             placeholder="Your Message" 
             value={message} 
-            name={message}
+            name="message"
             onChange={handleChangeInput}
             />
         </div>
