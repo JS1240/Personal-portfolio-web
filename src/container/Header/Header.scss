@@ -20,7 +20,7 @@
     height: 100%;
     flex-direction: row; //can change bending if mobile or desktop device
 
-    padding: 6rem 2rem 0;
+    padding: 8rem 2rem 0;
 
     @media screen and (min-width: 2000px) {
         padding-top: 8rem;
@@ -36,7 +36,7 @@
 }
 
 .app__header-info {
-    flex: 0.65; //65% of the screeen the header info should take
+    flex: 0.55; //65% of the screeen the header info should take
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -58,13 +58,13 @@
 
     .badge-cmp,
     .tag-cmp {
-        padding: 1rem 2rem;
+        padding: 2rem 4rem;
         border: var(--white-color);
         border-radius: 15px;
         flex-direction: row;
         width: auto;
 
-        box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); //gives shadow to the badge 
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.3); //gives shadow to the badge 
     }
 
     .tag-cmp {
@@ -143,7 +143,7 @@
         }
     
         div:nth-child(3) {
-            width: 200x;
+            width: 200px;
             height: 200px;
         }
     }
@@ -161,7 +161,7 @@
 }
 
 .app__header-img {
-    flex: 1;
+    flex: 2;
     height: 100%;
 
     display: flex;
