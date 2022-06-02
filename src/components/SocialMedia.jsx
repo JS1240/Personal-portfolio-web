@@ -8,7 +8,7 @@ const SocialMedia = () => (
       <BsTwitter />
     </div>
     <div>
-      <FaFacebookF />
+      <FaFacebookF/>
     </div>
     <div>
       <BsInstagram />
