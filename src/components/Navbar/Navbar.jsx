@@ -11,7 +11,9 @@ const Navbar = () => {
   return (
     <nav className="app__navbar">
       <div className="app__navbar-logo">
-        <img src={images.logo} alt="logo" />
+        <a href="https://jure-sunic.netlify.app/">
+          <img src={images.logo} alt="logo" />
+        </a>
       </div>
       <ul className="app__navbar-links">
         {["home", "about", "work", "skills", "testimonial", "contact"].map((item) => (
